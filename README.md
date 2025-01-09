@@ -1,24 +1,23 @@
-# Frobnicator (this is a template)
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/M0kyOMLZ)
+# Systematic Individual Growth Management App
 
 ## Authors
-- Andrzej Głuszak (@agluszak on GitHub)
-- Linus Torvalds (@torvalds on GitHub)
+- Witold Formański (@witek-formanski on GitHub)
 
 ## Description
-Frobnicator is going to be a platformer game similar to Super Mario Bros made using Korge game engine.
+SIGMA will be a transformative app designed to support users in achieving their self-development goals. It will motivate individuals to stay committed to their daily resolutions, fostering consistent progress and lasting personal growth.
 
 ## Features
-- map generator
-- shooting
-- enemy AI
-- game state saving and loading
-- scores
+- adding, modifying, and removing daily resolutions
+- tracking progress with detailed statistics
+- visualizing growth through graphs and charts
+- calendar integration
+- customizable daily notifications
+- daily streaks
 
 ## Plan
-In the first part we're going to implement the basics: movement, physics and shooting. The enemies will simply bounce from one edge of the platform to the other. There will be only a single map.
-
-In the second part we're going to add random map generator, saving/loading, scores and a more sophisticated AI.
+First part: basic functionality (parsing data, a few screens, most of backend). Second part: extended functionality (statistics, notifications, pretty frontend, fully implemented backend).
 
 ## Libraries
-- Korge (https://korge.org/)
-- kotlinx-serialization (https://github.com/Kotlin/kotlinx.serialization)
+- Compose
+- Voyager
